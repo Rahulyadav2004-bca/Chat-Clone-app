@@ -1,0 +1,12 @@
+{
+  "name": "chat-clone-root",
+  "version": "1.0.0",
+  "description": "Full-Stack Real-Time MERN Chat Clone",
+  "scripts": {
+    "start:server": "npm --prefix server start",
+    "start:client": "npm --prefix client dev",
+    "test:server": "npm --prefix server test",
+    "test:client": "npm --prefix client test",
+    "test": "npm --prefix server test && npm --prefix client test"
+  }
+}
